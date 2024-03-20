@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.campo-texto {
+    width: 100%;
+    height: 200px;
+    padding: 10px;
+    box-sizing: border-box;
+    resize: none;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.btn {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.btn button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btnEncriptar {
+    background-color: #007bff;
+    color: white;
+}
+
+.btnEncriptar:hover {
+    background-color: #0056b3;
+}
+
+.btnDesencriptar {
+    background-color: #28a745;
+    color: white;
+}
+
+.btnDesencriptar:hover {
+    background-color: #218838;
+}
+
+.campoMensaje {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.mensaje {
+    width: 100%;
+    height: 200px;
+    padding: 10px;
+    box-sizing: border-box;
+    resize: none;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
